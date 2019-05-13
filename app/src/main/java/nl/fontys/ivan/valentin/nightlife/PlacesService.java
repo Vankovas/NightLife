@@ -62,7 +62,7 @@ public class PlacesService implements Serializable {
     private static final String OUT_JSON = "/json?";
 
     // KEY!
-    private static final String API_KEY = "AIzaSyDSbsYlKXUjSUCN1G6bfDM3npr1rcokkx0";
+    private static final String API_KEY = "YOURAPIKEYHERE";
 
     public static String searchTest(double lat, double lng, int radius, String type) {
 

@@ -326,10 +326,10 @@ public class MainActivity extends AppCompatActivity implements Serializable {
                                 }
                             }
 
-                            //https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name,rating,formatted_phone_number&key=AIzaSyDSbsYlKXUjSUCN1G6bfDM3npr1rcokkx0
+                            //https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name,rating,formatted_phone_number&key=YOURAPIKEYHERE
 
 
-                            GeoApiContext context = new GeoApiContext.Builder().apiKey("AIzaSyDSbsYlKXUjSUCN1G6bfDM3npr1rcokkx0").build();
+                            GeoApiContext context = new GeoApiContext.Builder().apiKey("YOURAPIKEYHERE").build();
 
                             LocalTime startOpenTime = LocalTime.of(hr, min);
                             LocalTime endOpenTime = LocalTime.of(hrEnd, minEnd);
@@ -508,7 +508,7 @@ public class MainActivity extends AppCompatActivity implements Serializable {
                                     places = ps.search(latitude, longitude, 5000, "night_club");
                                 }
                             }
-                            GeoApiContext context = new GeoApiContext.Builder().apiKey("AIzaSyDSbsYlKXUjSUCN1G6bfDM3npr1rcokkx0").build();
+                            GeoApiContext context = new GeoApiContext.Builder().apiKey("YOURAPIKEYHERE").build();
 
                             LocalTime startOpenTime = LocalTime.of(hr, min);
                             LocalTime endOpenTime = LocalTime.of(hrEnd, minEnd);

@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDSbsYlKXUjSUCN1G6bfDM3npr1rcokkx0" />
+            android:value="YOURAPIKEYHERE" />
 
         <activity
             android:name=".StartupScreen"
