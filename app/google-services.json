@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "739671712216",
+    "firebase_url": "https://nightlife-b10cf.firebaseio.com",
+    "project_id": "nightlife-b10cf",
+    "storage_bucket": "nightlife-b10cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739671712216:android:2cab4412474ab9ea",
+        "android_client_info": {
+          "package_name": "nl.fontys.ivan.valentin.nightlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739671712216-sru7u3qlcvf15pdf4uauqmnp2rl7u56g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpOG1N6Vc5HmzGohTtOO8kVK2F7QzNG1g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

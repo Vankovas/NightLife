@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up_background"
+    android:orientation="vertical"
+    tools:context=".Personalize"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/back_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="9"
+                    android:background="@drawable/back_arrow_light"
+                    android:onClick="back"/>
+
+                <TextView
+                    android:id="@+id/personalize_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingRight="42sp"
+                    android:text="PERSOLANIZE"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="40sp"
+                    android:theme="@style/ButtonText" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dining_label"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="DINING EXPERIENCE"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/food_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="0dp"
+                android:text="FOOD PREFERENCE?"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:theme="@style/ButtonText" />
+
+            <extra.MultiSelectionSpinner
+                android:id="@+id/food_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/extra_white_button"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/atmosphere_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="DESIRED ATMOSPHERE?"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:theme="@style/ButtonText" />
+
+            <Spinner
+                android:id="@+id/atmosphere_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/extra_white_button"
+                android:entries="@array/atmosphere"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/nightclub_label"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="18dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="NIGHTCLUB EXPERIENCE"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/music_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:padding="0dp"
+                android:text="WHAT'S YOUR MUSIC TASTE?"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:theme="@style/ButtonText" />
+
+            <extra.MultiSelectionSpinner
+                android:id="@+id/music_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/extra_white_button"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/entertainment_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:padding="0dp"
+                android:text="TYPE OF ENTERTAINMENT? "
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:theme="@style/ButtonText" />
+
+            <Spinner
+                android:id="@+id/entertainment_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/extra_white_button"
+                android:entries="@array/entertainment"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:theme="@style/ButtonText" />
+
+            <Button
+                android:id="@+id/finish_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="128dp"
+                android:layout_marginRight="128dp"
+                android:layout_marginTop="32dp"
+                android:layout_weight="7"
+                android:background="@drawable/extra_white_button"
+                android:text="FINISH"
+                android:textSize="18sp"
+                android:theme="@style/ButtonText"
+                android:onClick="finish"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

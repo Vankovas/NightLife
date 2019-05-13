@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#63E7BD</item>
+    </style>
+
+	<style name="ButtonText">
+		<item name="android:fontFamily">sans-serif</item>
+		<item name="android:textColor">#FF191414</item>
+		<item name="android:textSize">30sp</item>
+		<item name="android:lineSpacingMultiplier">1.3</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.BlackStatusBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up_background"
+    android:orientation="vertical"
+    tools:context=".AboutYou"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ABOUT YOU"
+            android:textColor="@android:color/background_light"
+            android:textSize="54sp"
+            android:theme="@style/ButtonText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.25"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/label_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="WHAT'S YOUR DATE OF BIRTH?"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/extra_white_button"
+                android:gravity="left|center_vertical"
+                android:hint="Select Date..."
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textSize="24sp"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/label_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="WHAT'S YOUR GENDER?"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:theme="@style/ButtonText" />
+
+            <Spinner
+                android:id="@+id/gender_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/extra_white_button"
+                android:entries="@array/gender"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:theme="@style/ButtonText" />
+
+            <TextView
+                android:id="@+id/label_transport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="MEANS OF TRANSPORT?"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:theme="@style/ButtonText" />
+
+            <Spinner
+                android:id="@+id/transport_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/extra_white_button"
+                android:entries="@array/transport"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:theme="@style/ButtonText" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/finish_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginRight="128dp"
+            android:background="@drawable/extra_white_button"
+            android:onClick="finish"
+            android:text="FINISH"
+            android:textSize="18sp"
+            android:theme="@style/ButtonText" />
+
+    </LinearLayout>
+
+</LinearLayout>

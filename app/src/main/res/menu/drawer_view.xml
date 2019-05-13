@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@mipmap/ic_about_me"
+            android:title="About me"
+            />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@mipmap/ic_preferences"
+            android:title="Preferences" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@mipmap/ic_visited"
+            android:title="Visited Places" />
+        <item
+            android:id="@+id/nav_forth_fragment"
+            android:icon="@mipmap/ic_log_out"
+            android:title="Logout" />
+    </group>
+</menu>

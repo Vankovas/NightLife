@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">NightLife</string>
+    <string name="lb_time_frame">TIME FRAME:</string>
+    <string name="lb_transport">MEANS OF TRANSPORT:</string>
+    <string name="lb_surprise">Try something new?</string>
+    <string-array name="gender">
+        <item>Non-binary</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="transport">
+        <item>Walking</item>
+        <item>Cycling</item>
+        <item>Driving</item>
+
+    </string-array>
+    <string-array name="food">
+        <item>French</item>
+        <item>Indian</item>
+        <item>Mexican</item>
+        <item>Italian</item>
+    </string-array>
+    <string-array name="atmosphere">
+        <item>No preference</item>
+        <item>Quiet</item>
+        <item>Lively</item>
+        <item>Loud</item>
+    </string-array>
+    <string-array name="music">
+        <item>Electronic</item>
+        <item>Rock</item>
+        <item>Metal</item>
+        <item>Hip-Hop</item>
+        <item>Pop</item>
+    </string-array>
+    <string-array name="entertainment">
+        <item>Dance Floor</item>
+        <item>Games</item>
+        <item>Live Music</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <color name="sideMenu">#cccccc</color>
+    <color name="backgroundMain">#141a2c</color>
+    <color name="backgroundMain2">#000000</color>
+    <color name="backgroundTime">#9d171d32</color>
+    <color name="surpriseMeTimeToDine">#95f5bd</color>
+    <color name="surpriseMeTimeToParty">#d2df3d</color>
+    <color name="backgroundTimeTimeToParty">#8d2a2c2e</color>
+</resources>
